@@ -1,0 +1,9 @@
+target/
+data/
+*.mv.db
+*.trace.db
+*.lock.db
+*.bak*
+.git/
+.idea/
+*.iml
