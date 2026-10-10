@@ -40,3 +40,4 @@ desktop.ini
 *-backup-*/
 
 # Do not ignore source code, Dockerfiles, or Maven configuration
+*.bak-*
