@@ -1,0 +1,42 @@
+# H2 database files and database folders
+**/data/
+*.mv.db
+*.trace.db
+*.lock.db
+
+# Java / Maven build output
+**/target/
+
+# Node.js dependencies and frontend build output
+**/node_modules/
+**/dist/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/application-secret.properties
+**/application-local.properties
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary and backup files
+*.tmp
+*.bak
+*-backup-*/
+
+# Do not ignore source code, Dockerfiles, or Maven configuration
